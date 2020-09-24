@@ -1,7 +1,7 @@
 def record():
     try:
         name = input("성적을 확인하고자 하는 학생의 이름을 입력하시오.\n")
-        achievement = open("C:/msgpro/students/{0}.txt".format(name),'r')
+        achievement = open("C:/Users/user/msgpro/students/{0}.txt".format(name),'r')
     except FileNotFoundError:
         print("존재하지 않는 이름입니다. 학생 이름과 성적파일 유무를 students 폴더에서 확인하시고 프로그램을 다시 실행해주십시오.")
         input()

@@ -1,8 +1,8 @@
 def check():
     try:
         test_num = input("시험 번호를 입력해주세요.\n")
-        test = open("C:/msgpro/answer/{0}.txt".format(test_num),'r')
-        exam_stat = open("C:/msgpro/status/{0}.txt".format(test_num),'a')
+        test = open("C:/Users/user/msgpro/answer/{0}.txt".format(test_num),'r')
+        exam_stat = open("C:/Users/user/msgpro/status/{0}.txt".format(test_num),'a')
     except FileNotFoundError:
         print("존재하지 않는 시험 번호입니다. 파일 유무를 확인하시고 프로그램을 다시 실행해주십시오.")
         input()
@@ -11,7 +11,7 @@ def check():
     n = int(input("학생 수를 입력해주세요.\n"))
     for _ in range(n):
         name = input("학생의 이름을 입력해주세요\n")
-        students = open("C:/msgpro/students/{0}.txt".format(name),'a')
+        students = open("C:/Users/user/msgpro/students/{0}.txt".format(name),'a')
         user_answer = input("{0} 학생의 답안을 문항별로 띄어서 기입해주세요.\n".format(name)).split()
         correct = []
         wrong = []

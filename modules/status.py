@@ -1,7 +1,7 @@
 def status():
     try:
         test_num = input("통계를 확인하고자 하는 시험 번호를 입력해주세요.\n")
-        test = open("C:/msgpro/status/{0}.txt".format(test_num),'r')
+        test = open("C:/Users/user/msgpro/status/{0}.txt".format(test_num),'r')
     except FileNotFoundError:
         print("존재하지 않는 시험 번호입니다. 파일 유무를 확인하시고 프로그램을 다시 실행해주십시오.")
         input()
