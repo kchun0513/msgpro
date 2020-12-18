@@ -14,7 +14,7 @@ Last Version - 1.1
 
 -- 시험 별 학생들의 성적 입력
 
-<img width="800" src="https://user-images.githubusercontent.com/62457974/100537529-b6395700-326c-11eb-8d72-0a06c1d0a4c4.png">
+<img width="800" src="https://user-images.githubusercontent.com/62457974/102629864-19911780-418f-11eb-9347-985cfa700fac.png">
 
 -- 1. 시험 번호 입력 (정답지(txt파일)의 파일명)
 
@@ -34,7 +34,7 @@ Last Version - 1.1
 
 -- 특정 학생의 성적 확인
 
-<img width="800" src="https://user-images.githubusercontent.com/62457974/100537701-04028f00-326e-11eb-9651-9b178da7ae98.png">
+<img width="800" src="https://user-images.githubusercontent.com/62457974/102629927-32013200-418f-11eb-9925-1d546b332f58.png">
 
 굳이 students 폴더에 들어가지 않아도 특정 학생의 역대 모의시험 성적을 확인할 수 있습니다.
   
@@ -42,7 +42,7 @@ Last Version - 1.1
 
 -- 특정 시험의 통계 확인
 
-<img width="800" src="https://user-images.githubusercontent.com/62457974/100537862-598b6b80-326f-11eb-9632-6405dbaa1430.png">
+<img width="800" src="https://user-images.githubusercontent.com/62457974/102629931-34fc2280-418f-11eb-92d2-4d159b30ab0e.png">
 
 status 폴더에서 해당 시험을 치룬 학생 수, 평균 점수, 표준 편차가 기록으로 나오며 순위가 표기됩니다.
 
@@ -50,7 +50,6 @@ status 폴더에서 해당 시험을 치룬 학생 수, 평균 점수, 표준 �
 
 1.0 ~ : 학생의 점수 평균 등의 통계 산출
 
-1.2 : 학생들 개별로 점수가 높은 시험부터 내림차순으로 시험 점수 따로 나열  
 1.3 : 틀린 문제를 따로 저장하여 재시험시 취약 유형 구별
 
 2.0 ~ : 문제 유형, 난이도 등을 구분, excel로 변경  
